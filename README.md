@@ -1,8 +1,6 @@
 ## Hi, I'm Christian 👋
 
-Technical Computer Science student at the University of Twente, aiming for a career in **quantitative development**.
-
-I like writing fast, low-level code and building tools that solve real problems.
+I study Technical Computer Science at the University of Twente and I'm working toward a career as a **quantitative developer**, where low-latency systems engineering meets financial models. At the moment I'm building C++ trading infrastructure for a cryptocurrency market-making system: real-time order book processing, a PostgreSQL/TimescaleDB time-series database, and benchmarks for critical-path latency and throughput.
 
 ### Languages
 
@@ -11,8 +9,12 @@ I like writing fast, low-level code and building tools that solve real problems.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-### Currently
+### Building
 
-- Studying Technical Computer Science @ University of Twente
-- Working towards quant development: algorithms, performance and markets
-- Building [Jarvis](https://github.com/Christian070707/jarvis-dashboard), a local personal dashboard
+**Hyperliquid: C++ market-making infrastructure** · *active*<br>
+Latency-sensitive C++ trading infrastructure for a crypto market-making system. Order book management, market data handling, and quoting/execution logic driven by real-time websocket data. Includes benchmarks for critical-path latency and a PostgreSQL/TimescaleDB time-series database (with separate production and test environments) hosted on a Debian server.<br>
+<sub>C++ · Market making · WebSockets · TimescaleDB · PostgreSQL · simdjson · Python</sub>
+
+**[Jarvis](https://github.com/Christian070707/jarvis-dashboard)**<br>
+A local personal dashboard: timetable, calendars, deadlines, unread mail and tasks on one page.<br>
+<sub>Python · FastAPI · HTMX</sub>
