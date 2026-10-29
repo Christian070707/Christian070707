@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="270" viewBox="0 0 880 270" role="img" aria-label="Christian Abdalla, aspiring quantitative developer">
+<style>
+  text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .text { fill: #1f2328; }
+  .muted { fill: #656d76; }
+  .s11 { font-size: 11px; }
+  .s12 { font-size: 12px; }
+  .bar { transform-box: fill-box; transform-origin: right center; animation: breathe ease-in-out infinite alternate; }
+  @keyframes breathe { from { transform: scaleX(.55); } to { transform: scaleX(1); } }
+  .fill { opacity: 0; animation: fill 4.5s ease-out infinite; }
+  @keyframes fill { 0%, 70% { opacity: 0; } 74% { opacity: .28; } 100% { opacity: 0; } }
+  .pulse { animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+  .typer { animation: type 9s infinite; }
+  @keyframes type {
+    0% { transform: translateX(0); animation-timing-function: steps(31, end); }
+    30%, 100% { transform: translateX(297.59999999999997px); }
+  }
+  .cursor { animation: blink 1s steps(1, end) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .draw { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 9s ease-out infinite; }
+  @keyframes draw { 0% { stroke-dashoffset: 1400; } 45%, 100% { stroke-dashoffset: 0; } }
+  .area { opacity: 0; animation: area 9s ease-out infinite; }
+  @keyframes area { 0%, 35% { opacity: 0; } 50%, 100% { opacity: 1; } }
+  .tip { opacity: 0; animation: area 9s ease-out infinite; }
+  @media (prefers-reduced-motion: reduce) {
+    .bar, .fill, .pulse, .cursor, .area, .tip { animation: none; opacity: 1; }
+    .fill { opacity: 0; }
+    .typer { animation: none; transform: translateX(297.59999999999997px); }
+    .draw { animation: none; stroke-dashoffset: 0; }
+  }
+</style>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0969da" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0969da" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x=".5" y=".5" width="879" height="269" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="22" cy="20" r="5" fill="#d0d7de"/><circle cx="40" cy="20" r="5" fill="#d0d7de"/><circle cx="58" cy="20" r="5" fill="#d0d7de"/>
+<text x="440.0" y="24" text-anchor="middle" class="muted s12">christian@utwente: ~</text>
+<line x1="1" y1="38" x2="879" y2="38" stroke="#d0d7de"/>
+
+<text x="32" y="78" font-size="14"><tspan fill="#1a7f37">$</tspan><tspan class="text"> whoami</tspan></text>
+<text x="32" y="122" font-size="34" font-weight="700" class="text" textLength="350" lengthAdjust="spacingAndGlyphs">Christian Abdalla</text>
+<text x="32" y="156" font-size="14" class="muted">Technical Computer Science @ University of Twente</text>
+<text x="32" y="188" font-size="16" fill="#1a7f37">&gt;</text>
+<text x="52" y="188" font-size="16" fill="#0969da" textLength="297.59999999999997" lengthAdjust="spacingAndGlyphs">aspiring quantitative developer</text>
+<g class="typer">
+  <rect x="52" y="172" width="311.59999999999997" height="22" fill="#ffffff"/>
+  <rect x="53" y="174" width="9" height="18" fill="#0969da" class="cursor"/>
+</g>
+
+<path d="M32.0,243.5 L39.9,238.9 L47.9,240.0 L55.8,241.8 L63.7,248.4 L71.7,249.4 L79.6,240.2 L87.5,236.4 L95.5,227.8 L103.4,225.3 L111.3,221.6 L119.3,219.6 L127.2,231.8 L135.1,224.6 L143.1,220.1 L151.0,215.6 L158.9,228.0 L166.8,240.8 L174.8,247.0 L182.7,250.0 L190.6,247.0 L198.6,246.8 L206.5,242.2 L214.4,246.5 L222.4,243.5 L230.3,239.8 L238.2,244.3 L246.2,230.5 L254.1,225.6 L262.0,215.8 L270.0,219.9 L277.9,225.0 L285.8,227.0 L293.8,227.2 L301.7,221.8 L309.6,219.2 L317.6,222.1 L325.5,228.8 L333.4,232.2 L341.4,222.2 L349.3,227.8 L357.2,225.3 L365.2,221.4 L373.1,232.2 L381.0,231.2 L388.9,220.6 L396.9,235.5 L404.8,237.3 L412.7,237.5 L420.7,243.2 L428.6,238.7 L436.5,238.6 L444.5,249.3 L452.4,242.3 L460.3,236.5 L468.3,228.6 L476.2,216.9 L484.1,213.5 L492.1,212.0 L500.0,221.4 L500,250 L32,250 Z" fill="url(#g)" class="area"/>
+<path d="M32.0,243.5 L39.9,238.9 L47.9,240.0 L55.8,241.8 L63.7,248.4 L71.7,249.4 L79.6,240.2 L87.5,236.4 L95.5,227.8 L103.4,225.3 L111.3,221.6 L119.3,219.6 L127.2,231.8 L135.1,224.6 L143.1,220.1 L151.0,215.6 L158.9,228.0 L166.8,240.8 L174.8,247.0 L182.7,250.0 L190.6,247.0 L198.6,246.8 L206.5,242.2 L214.4,246.5 L222.4,243.5 L230.3,239.8 L238.2,244.3 L246.2,230.5 L254.1,225.6 L262.0,215.8 L270.0,219.9 L277.9,225.0 L285.8,227.0 L293.8,227.2 L301.7,221.8 L309.6,219.2 L317.6,222.1 L325.5,228.8 L333.4,232.2 L341.4,222.2 L349.3,227.8 L357.2,225.3 L365.2,221.4 L373.1,232.2 L381.0,231.2 L388.9,220.6 L396.9,235.5 L404.8,237.3 L412.7,237.5 L420.7,243.2 L428.6,238.7 L436.5,238.6 L444.5,249.3 L452.4,242.3 L460.3,236.5 L468.3,228.6 L476.2,216.9 L484.1,213.5 L492.1,212.0 L500.0,221.4" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" class="draw"/>
+<circle cx="500.0" cy="221.4" r="3.5" fill="#0969da" class="tip"/>
+
+<line x1="532" y1="52" x2="532" y2="254" stroke="#d0d7de"/>
+  <text x="556" y="62" class="muted s11">HYPERLIQUID · BTC-PERP · L2</text>
+  <rect x="725.0" y="69" width="123.0" height="14" rx="2" fill="#cf222e" fill-opacity=".16" class="bar" style="animation-duration:2.6s;animation-delay:-0.0s"/>
+  <text x="556" y="80" fill="#cf222e" class="s12">67,414.0</text>
+  <text x="844" y="80" text-anchor="end" class="text s12">2.84</text>
+  <rect x="779.0" y="86" width="69.0" height="14" rx="2" fill="#cf222e" fill-opacity=".16" class="bar" style="animation-duration:3.3s;animation-delay:-0.9s"/>
+  <text x="556" y="97" fill="#cf222e" class="s12">67,413.5</text>
+  <text x="844" y="97" text-anchor="end" class="text s12">1.37</text>
+  <rect x="698.0" y="103" width="150.0" height="14" rx="2" fill="#cf222e" fill-opacity=".16" class="bar" style="animation-duration:4.0s;animation-delay:-1.8s"/>
+  <text x="556" y="114" fill="#cf222e" class="s12">67,413.0</text>
+  <text x="844" y="114" text-anchor="end" class="text s12">3.91</text>
+  <rect x="806.0" y="120" width="42.0" height="14" rx="2" fill="#cf222e" fill-opacity=".16" class="bar" style="animation-duration:4.7s;animation-delay:-2.7s"/>
+  <text x="556" y="131" fill="#cf222e" class="s12">67,412.5</text>
+  <text x="844" y="131" text-anchor="end" class="text s12">0.62</text>
+  <text x="556" y="149" class="s11" fill="#0969da">── spread 0.5 · mid 67,412.25 ──</text>
+  <rect x="791.0" y="156" width="57.0" height="14" rx="2" fill="#1a7f37" fill-opacity=".16" class="bar" style="animation-duration:3.0s;animation-delay:-0.0s"/>
+  <rect x="550" y="155" width="298" height="16" rx="3" fill="#1a7f37" class="fill"/>
+  <text x="556" y="167" fill="#1a7f37" class="s12">67,412.0</text>
+  <text x="844" y="167" text-anchor="end" class="text s12">1.12</text>
+  <rect x="719.0" y="173" width="129.0" height="14" rx="2" fill="#1a7f37" fill-opacity=".16" class="bar" style="animation-duration:3.6s;animation-delay:-1.3s"/>
+  <text x="556" y="184" fill="#1a7f37" class="s12">67,411.5</text>
+  <text x="844" y="184" text-anchor="end" class="text s12">2.95</text>
+  <rect x="803.0" y="190" width="45.0" height="14" rx="2" fill="#1a7f37" fill-opacity=".16" class="bar" style="animation-duration:4.2s;animation-delay:-2.6s"/>
+  <text x="556" y="201" fill="#1a7f37" class="s12">67,411.0</text>
+  <text x="844" y="201" text-anchor="end" class="text s12">0.74</text>
+  <rect x="707.0" y="207" width="141.0" height="14" rx="2" fill="#1a7f37" fill-opacity=".16" class="bar" style="animation-duration:4.8s;animation-delay:-3.9s"/>
+  <text x="556" y="218" fill="#1a7f37" class="s12">67,410.5</text>
+  <text x="844" y="218" text-anchor="end" class="text s12">3.40</text>
+  <text x="556" y="243" class="muted s11">● live · ws feed</text>
+  <circle cx="559" cy="239" r="3" fill="#1a7f37" class="pulse"/>
+</svg>
