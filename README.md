@@ -62,7 +62,7 @@ Latency-sensitive C++ trading infrastructure for a crypto market-making system. 
 
 | Project | What | Stack |
 |---|---|---|
-| **[C++ limit order book & simulator](https://github.com/Christian070707/Limit-Order-Book)** | Limit order book with order matching, bid/ask management and trade execution on price-time priority, to model market microstructure | C++ · Data structures |
+| **[C++ limit order book](https://github.com/Christian070707/Limit-Order-Book)**<br><sub>in development</sub> | Interactive command-line trading simulator built around a limit order book. Price levels in sorted maps with a FIFO queue per level (price-time priority); market and limit orders walk the book with partial fills, unfilled limit orders rest in the book, and every fill is checked against a portfolio's cash and position. A learning project; next up are order cancellation, multiple traders and a stochastic price model | C++ · Data structures |
 | **Quarto: TCP game server** | Full networking stack for the board game Quarto: custom protocol, per-session state machine, thread-safe matchmaking, server-side move validation | Java · TCP · Concurrency |
 | **[RISE 5](https://rise5.paas.hosted-by-previder.com/rise/)** | Fullstack web app for an external stakeholder in a five-person Scrum team; I designed the PostgreSQL schema (15+ tables, role-based access) | Java · Vue.js · PostgreSQL |
 | **Scuba Chat** | Server-less multi-hop chat network over an emulated underwater acoustic layer; I designed the bit-packed packet header | Java · Distributed systems |
